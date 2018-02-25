@@ -1,18 +1,18 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-
 import { AppComponent } from './app.component';
+import { NgforPipeModule } from './ngfor-pipe/ngfor-pipe.module';
+import { NgModule } from '@angular/core';
+import {CommonModule} from '@angular/common';
 
 
 @NgModule({
   declarations: [
     AppComponent
-  ],
+     ],
   imports: [
-    BrowserModule
+    CommonModule,
+    NgforPipeModule
   ],
-  providers: [],
+ 
   bootstrap: [AppComponent]
 })
 export class AppModule { }
