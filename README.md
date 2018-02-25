@@ -5,7 +5,7 @@ This Module is a simple Custom pipe which can be used to filter ngFor input arra
 
 ## Install 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install ngfor-pipe`
 
 ## Usage
 import  NgforPipeModule in your Project 
